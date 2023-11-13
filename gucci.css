@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+}
+#page1 #nav1{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 22px 85px;
+
+    
+}
+#nav1 h5{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    opacity: 0;
+}
+#nav1-part1 i{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#page1 #nav svg{
+   scale: 0.85;
+   fill: black;
+    position: fixed; 
+   top: 50px; 
+   margin-bottom: 10px;
+   /* margin-left: 70px; */
+   z-index: 1;
+  
+  
+}
+#page1 #page1-img {
+    position: relative;
+    left: 50%;
+    /* top: 50%; */
+    /* margin: auto; */
+    transform: translate(-50%,30%);
+    height: 160vh;
+    width: 60%;
+    background-image: url(https://media.gucci.com/dynamic/b3c8/6w5c20YC6pJMA3l52D7idovgwp6ckPlW+myA5i96A4RerBZTD1xfRwgOye+yeg2UOpDr4CXrnEX1ZVhmMjiVLwkeYK__a6lT54B0AqG8BBzm1qQPbAK2Cu00RcdbcBVMfhdnWG8UMVP65X674gJJ63zTv5+qBiimY5wQmrh5FPWG0OHnSufwK2dtmHLAJ8W7Yx6yZg4HLSbjX3TjYC1Vd4vWgkXoqNYvm_2G5dcV6n3ohCB+6+7qPMfxTAS292cu/Portrait_Horsebit-4-Default.png);
+    background-size: cover;
+    z-index: -1;
+    /* background-color: red; */
+}
